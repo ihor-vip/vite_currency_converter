@@ -15,7 +15,8 @@ export const useCurrency = () => {
                 staleTime: Infinity,
                 select: ({rates, date, timestamp}) => {
                     return {rates, date, timestamp}
-                }
+                },
+                keepPreviousData: true
             },
             {
                 queryKey: ["symbols"],
