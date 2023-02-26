@@ -19,7 +19,7 @@ export const useCurrency = () => {
             },
             {
                 queryKey: ["symbols"],
-                queryFn: () => fetchSymbols,
+                queryFn: fetchSymbols,
                 staleTime: Infinity,
                 select: ({symbols}) => symbols
             }
