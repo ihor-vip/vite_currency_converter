@@ -101,6 +101,10 @@ const Converter = () => {
                   />
               </GridItem>
           </Grid>
+          <Text textAlign='center' marginTop='1.5rem' color='whiteAlpha.600' fontSize='sm' >
+              Built with ❤️, by VIP design <br/>
+              using React, React Query, Axios & Chakra-UI
+          </Text>
       </Box>
     )
 }
