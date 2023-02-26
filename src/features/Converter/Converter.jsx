@@ -17,10 +17,8 @@ const Converter = () => {
         currencyTwo,
         setCurrencyTwo,
         convertedAmount,
-        ratesData,
         symbolsData,
         date,
-        time,
         currencyList
     } = useCurrency();
 
@@ -97,7 +95,6 @@ const Converter = () => {
                       currencyTwo={currencyTwo}
                       convertedAmount={convertedAmount}
                       date={date}
-                      time={time}
                   />
               </GridItem>
           </Grid>

@@ -5,7 +5,6 @@ const ConverterDisplay = ({
                               convertedAmount,
                               currencyOne,
                               currencyTwo,
-                              time,
                               date
                           }) => {
     return (
@@ -19,7 +18,7 @@ const ConverterDisplay = ({
             </Text>
 
             <Text fontSize='xs' color='gray.400'>
-                Market rates collected - {date} {time}
+                Market rates collected - {date}
             </Text>
         </Box>
     )
