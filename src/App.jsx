@@ -1,9 +1,12 @@
-import Converter from "./features/Converter/index.jsx";
+import Converter from "./features/Converter";
+import {Flex} from "@chakra-ui/react";
 
 function App() {
     return (
         <>
-            <Converter />
+            <Flex bgGradient='linear(to-t, #ae085c, #2e0656)'>
+                <Converter />
+            </Flex>
         </>
     )
 }
