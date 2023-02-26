@@ -3,6 +3,7 @@ import {Box, Spinner, Text} from "@chakra-ui/react";
 import ConverterHeader from "./components/ConverterHeader";
 import ConverterOption from "./components/ConverterOption";
 import ConverterInput from "./components/ConverterInput";
+import ConverterDisplay from "./components/ConverterDisplay";
 
 const Converter = () => {
     const {
@@ -56,6 +57,15 @@ const Converter = () => {
           />
 
           <ConverterInput value={amount} onAmountChange={setAmount} />
+
+          <ConverterDisplay
+              amount={amount}
+              currencyOne={currencyOne}
+              currencyTwo={currencyTwo}
+              convertedAmount={convertedAmount}
+              date={date}
+              time={time}
+          />
       </Box>
     )
 }
