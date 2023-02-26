@@ -2,7 +2,7 @@ import {Box, Text} from "@chakra-ui/react";
 
 const ConverterHeader = () => {
     return (
-        <Box marginTop='20' marginBottom='10' textAlign="center" color='white'>
+        <Box textAlign="center" color='white' marginTop='20' marginBottom='10'>
             <Text fontWeight='bold' fontSize='3xl'>
                 Currency Converter & Exchange Rates
             </Text>
